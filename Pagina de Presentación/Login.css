@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+  
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(Delish\ Anime\ Style\ food.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+  
+.wrapper{
+    width: 420px;
+    background: transparent;
+    border: 2px solid rgba(153, 88, 42);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(255, 230, 167);
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+  
+ .wrapper h1{
+    font-family: 'Calluna';                        
+    font-size: 36px;
+    text-align:center;
+}
+  
+.wrapper .input-box{
+    position: relative;
+    width:100%;
+    height: 50px;
+    margin: 30px 0;
+}
+  
+.input-box input{
+    font-family:'Times New Roman'; 
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(187, 148, 87);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+}
+  
+.input-box input::placeholder{
+    color:#fff;
+}
+  
+.input-box i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+   
+.wrapper .btn button{
+    font-family: 'Calluna';
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(136, 111, 104);
+    cursor: pointer;
+    font-size: 20px;
+    color: #886F68;
+    font-weight: 600;
+}
+   

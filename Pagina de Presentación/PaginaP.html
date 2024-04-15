@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="PaginaP.css">
+    <script src="PaginaP.js"></script>
+</head>
+<body>
+    
+    <header>
+
+        <input type="checkbox" name="" id="toggler">
+        <label for="toggler" class="fas fa-bars"></label>
+
+        <a href="#" class="Logo"> Tokyo Restaurant<span>.</span></a>
+
+       <nav class="Navbar">
+            <a href="#Home">Principal</a>
+            <a href="#About">Sobre</a>
+            <a href="#products">Productos</a>
+       </nav>
+
+       <div class="Icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart" id="Add"></a>
+            <a href="#" class="fas fa-user"></a>
+       </div>
+
+    </header>
+
+    <section class="Home" id="Home">
+        <div class="content">
+            <h3>Comidas Japonesas</h3>
+            <span> Comidas tradicionales de la cultura Japonesas</span>
+            <p>"Descubre el arte de la cocina japonesa en cada bocado."</p>
+
+            <div>
+                <button class="btn" onclick="Redireccion()">Compra ahora</button>
+                <button class="btn"  onclick="Redireccion2()">Registro</button>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="About" id="About">
+
+        <h1 class="heading"><span>Sobre</span>Nosotros</h1>
+
+        <div class="row">
+
+            <div class="video-container">
+                <video src="RestauranteTokyo.mp4" loop autoplay muted></video>
+            </div>
+
+            <div class="content">
+                <h3>¿Por qué nosotros?</h3>
+                <h2>Misión</h2>
+                <p>"En nuestro restaurante japonés, nos comprometemos a ofrecer una experiencia culinaria auténtica y de alta calidad que celebre la rica tradición gastronómica de Japón. Nuestra misión es satisfacer los paladares de nuestros clientes con platos frescos, sabrosos y cuidadosamente preparados, utilizando ingredientes de primera calidad y técnicas culinarias tradicionales. Buscamos ser un destino gastronómico de referencia, donde nuestros clientes puedan disfrutar de la auténtica cocina japonesa en un ambiente acogedor y elegante."</p>
+                <h2>Visión</h2>
+                <p>"Nos visualizamos como el principal destino para los amantes de la cocina japonesa en nuestra comunidad y más allá. Queremos ser reconocidos como un punto de referencia en la industria gastronómica por nuestra excelencia culinaria, servicio excepcional y ambiente distintivo. Aspiramos a expandirnos y crecer, manteniendo siempre nuestros estándares de calidad y autenticidad. Además, nos esforzamos por ser una fuerza positiva en nuestra comunidad, apoyando iniciativas locales y promoviendo la apreciación y comprensión de la cultura japonesa a través de nuestra comida y servicio."</p>
+                <a href="#" class="btn">Learn more</a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="Icons-container">
+
+        <div class="Icons">
+            <img src="737c231918561684922172c250fd94c4-icono-de-envio-gratuito.webp" alt="">
+            <div class="info">
+                <h3>Envios gratis</h3>
+                <span>En todas tus compras</span> 
+            </div>
+        </div>
+        <div class="Icons">
+            <img src="7199880.png" alt="">
+            <div class="info">
+                <h3>Devoluciones</h3>
+                <span>Te devolvemos tu dinero</span> 
+            </div>
+        </div>
+        <div class="Icons">
+            <img src="837993.png" alt="">
+            <div class="info">
+                <h3>Ofertas y promociones</h3>
+                <span>En todos tus envios</span> 
+            </div>
+        </div>
+        <div class="Icons">
+            <img src="5280226.png" alt="">
+            <div class="info">
+                <h3>Ofertas y promociones</h3>
+                <span>En todos tus envios</span> 
+            </div>
+        </div>
+    </section>
+
+    <section class="products" id="products">
+        <h1 class="heading"> Nuestros <span> Productos</span></h1>
+        <div class="box-container">
+
+            <div class="box">
+                <span class="discount">-16%</span>
+                <div class="image">
+                    <img src="3d-illustration-mochi-dango-png.png">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn" id="Add" >Add To Cart</a>
+                        <a href="#" class="fas fa-share"></a> 
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Dango</h3>
+                    <div class="price">$420 MXN <span>$500 MXN</span></div>
+                </div>
+            </div>
+
+            <div class="box">
+                <span class="discount">-15%</span>
+                <div class="image">
+                    <img src="strawberry-daifuku-japanese-dessert-watercolor-illustration-png.webp">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn" id="Add">Add To Cart</a>
+                        <a href="#" class="fas fa-share"></a> 
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Daifuku</h3>
+                    <div class="price">$51 MXN <span>$60 MXN</span></div>
+                </div>
+            </div>
+
+            <div class="box">
+                <span class="discount">-13%</span>
+                <div class="image">
+                    <img src="onigiri-tampico-0433712663330935-044860062629385-0639183732512958.png">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn" id="Add">Add To Cart</a>
+                        <a href="#" class="fas fa-share"></a> 
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Onigiri</h3>
+                    <div class="price">$174 MXN <span>$200 MXN</span></div>
+                </div>
+            </div>
+
+            <div class="box">
+                <span class="discount">-20%</span>
+                <div class="image">
+                    <img src="pngtree-katsu-curry-rice-and-sliced-spring-onion-japanese-food-png-image_10248762.png">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn" id="Add">Add To Cart</a>
+                        <a href="#" class="fas fa-share"></a> 
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Chicken Katsuki Curry</h3>
+                    <div class="price">$120 MXN <span>$150 MXN</span></div>
+                </div>
+            </div>
+
+            <div class="box">
+                <span class="discount">-35%</span>
+                <div class="image">
+                    <img src="takoyaki-with-ai-generated-free-png.webp">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn" id="Add">Add To Cart</a>
+                        <a href="#" class="fas fa-share"></a> 
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Takoyaki</h3>
+                    <div class="price">$227.5 MXN <span>$350 MXN</span></div>
+                </div>
+            </div>
+
+            <div class="box">
+                <span class="discount">-20%</span>
+                <div class="image">
+                    <img src="taiyakiland_intro_ice_cream.png">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn" id="Add">Add To Cart</a>
+                        <a href="#" class="fas fa-share"></a> 
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Taiyaki</h3>
+                    <div class="price">$68 MXN <span>$85 MXN</span></div>
+                </div>
+            </div>
+
+            <div class="box">
+                <span class="discount">-20%</span>
+                <div class="image">
+                    <img src="tempura-with-ai-generated-free-png.webp">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn" id="Add">Add To Cart</a>
+                        <a href="#" class="fas fa-share"></a> 
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Tempura</h3>
+                    <div class="price">$84 MXN <span>$105 MXN</span></div>
+                </div>
+            </div>
+
+            <div class="box">
+                <span class="discount">-16%</span>
+                <div class="image">
+                    <img src="ramen-with-ai-generated-free-png.webp">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn" id="Add">Add To Cart</a>
+                        <a href="#" class="fas fa-share"></a> 
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Ramen</h3>
+                    <div class="price">$63 MXN <span>$75 MXN</span></div>
+                </div>
+            </div>
+
+            <div class="box">
+                <span class="discount">-16%</span>
+                <div class="image">
+                    <img src="sushi-with-ai-generated-free-png.webp">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn" id="Add">Add To Cart</a>
+                        <a href="#" class="fas fa-share"></a> 
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Sushi</h3>
+                    <div class="price">$132 MXN <span>$150 MXN</span></div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h1 class="heading"><span>ContactaCon</span>Nosotros</h1>
+        <div class="row">
+            <form action="">
+                <input type="text" placeholder="Nombre"  class="box">
+                <input type="email" placeholder="Email"  class="box">
+                <input type="number" placeholder="Numero"  class="box">
+                <textarea name="" class="box" placeholder="Mensaje" id="" cols="30" rows="10"></textarea>
+                <input type="submit" value="Enviar Mensaje" class="btn">
+            </form>
+            <div class="image">
+                <img src="descargar (5).jpeg">
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="row">
+            <div class="copyright">
+                <p><small> &copy; 2024 Creado por Ye. All Rights Reserved.</small></p>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
